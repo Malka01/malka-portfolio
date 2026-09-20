@@ -1,4 +1,4 @@
-// CYBERNAXE CHATBOT - PREDEFINED Q&A KNOWLEDGE BASE
+// MALKA PORTFOLIO CHATBOT - PREDEFINED Q&A KNOWLEDGE BASE
 
 export const SUGGESTED_QUESTIONS = [
   'What services do you offer?',
@@ -160,7 +160,7 @@ export const QA_PAIRS = [
       'background', 'team', 'who is',
     ],
     answer:
-      "Cybernaxe Solutions is an AI and software studio based in Colombo, Sri Lanka, founded in 2022.\n\nWe help businesses automate customer communication, capture leads, and build modern software - using AI agents, automation workflows, and custom web applications.\n\nWant to know more about a specific service?",
+      "Malka is a full-stack developer and AI builder based in Sri Lanka.\n\nI build thoughtful websites, web applications, automation workflows, and AI-powered tools for people and growing teams.\n\nWant to know more about a specific project or skill?",
   },
   {
     id: 'why-us',

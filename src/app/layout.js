@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Cybernaxe Solutions - Sri Lanka's AI & Software Development Company",
-  description: "Cybernaxe Solutions is a leading AI and software development company in Sri Lanka, specializing in innovative solutions for businesses. We leverage cutting-edge technologies to deliver custom software, AI agents, and automation tools that enhance efficiency and drive growth.",
+  title: "Malka | Full-Stack Developer & AI Builder",
+  description: "Malka is a full-stack developer building thoughtful websites, web applications, AI tools, and automation systems for people and growing teams.",
 };
 
 export default function RootLayout({ children }) {

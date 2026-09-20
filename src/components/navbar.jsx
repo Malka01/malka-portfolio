@@ -14,7 +14,7 @@ export default function Navbar() {
     { label: 'About', href: '#about' },
     { label: 'Services', href: '#services' },
     { label: 'AI Agents', href: '#ai-agents' },
-    { label: 'Who We Help', href: '#solutions' },
+    { label: 'Approach', href: '#solutions' },
     { label: 'Work', href: '#projects' },
     { label: 'Contact', href: '#contact', isCTA: true },
   ];
@@ -26,10 +26,11 @@ export default function Navbar() {
           {/* Logo */}
           <a href="/" className="nav-logo" onClick={closeMenu}>
             <img
-              src="/Logo/Cybernaxe-Solutions-Logo.jpg"
+              src="image/icon/contact.svg"
               alt="Cybernaxe Solutions"
               className="nav-profile-img"
             />
+            <span className="nav-name">Malka</span>
           </a>
 
           {/* Desktop Menu */}

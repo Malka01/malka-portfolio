@@ -17,9 +17,9 @@ export default function Footer() {
             <a href="/#services">SEO & Digital Growth</a>
           </div>
 
-          {/* Solutions */}
+          {/* Ways I Help */}
           <div className="footer-column">
-            <h3>Solutions</h3>
+            <h3>Ways I Help</h3>
             <a href="/#solutions">AI Customer Support</a>
             <a href="/#solutions">Lead Automation</a>
             <a href="/#solutions">Booking Automation</a>
@@ -27,40 +27,37 @@ export default function Footer() {
             <a href="/#solutions">Custom Business Systems</a>
           </div>
 
-          {/* Company */}
+          {/* Explore */}
           <div className="footer-column">
-            <h3>Company</h3>
-            <a href="/#about">About Us</a>
-            <a href="/#projects">Our Work</a>
-            <a href="/#process">How We Work</a>
+            <h3>Explore</h3>
+            <a href="/#about">About Me</a>
+            <a href="/#projects">Selected Work</a>
+            <a href="/#process">My Process</a>
             <a href="/#contact">Contact</a>
-            <a href="/#contact">Become a Partner</a>
           </div>
 
           {/* Brand */}
           <div className="footer-brand">
-            <h2>Cybernaxe Solutions</h2>
+            <h2>Malka Sandaruwan</h2>
             <p>
-              Building intelligent digital solutions that help businesses
-              automate, grow, and operate smarter.
+              Full-stack developer building useful digital experiences with
+              code, curiosity, and care.
             </p>
 
             <div className="footer-socials">
               <a
-                href="https://www.linkedin.com/company/cybernaxe-solutions"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="LinkedIn"
+                href="/#contact"
+                aria-label="Connect"
               >
-                LinkedIn
+                Connect
               </a>
               <a
-                href="https://www.facebook.com/Cybernaxesolution"
+                href="https://www.linkedin.com/in/malka-sandaruwan"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Facebook"
+                aria-label="Linkedin"
               >
-                Facebook
+                Linkedin
               </a>
               {/* <a
                 href="https://www.tiktok.com/@cybernaxesolution"
@@ -85,8 +82,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="footer-bottom">
           <div>
-            © {new Date().getFullYear()} Cybernaxe Solutions. All rights
-            reserved.
+            © {new Date().getFullYear()} Malka. All rights reserved.
           </div>
 
           <div className="footer-links">

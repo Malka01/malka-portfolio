@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/purity */
 /* eslint-disable @next/next/no-page-custom-font */
 /* eslint-disable @next/next/no-img-element */
 'use client';
@@ -49,7 +50,7 @@ export default function Home() {
     {
       role: 'assistant',
       content:
-        "👋 Hi! I'm the Cybernaxe AI Assistant.\n\nAsk me anything about our services, pricing, or how we work. Or tap a suggestion below to get started.",
+        "👋 Hi! I'm Malka's portfolio assistant.\n\nAsk me about Malka's work, skills, or how to start a project together.",
       isIntro: true,
     },
   ]);
@@ -136,7 +137,7 @@ export default function Home() {
       email: e.target.email.value.trim(),
       subject: e.target.subject.value.trim(),
       message: e.target.message.value.trim(),
-      source: 'Cybernaxe Website',
+      source: 'Malka Portfolio',
       page: 'Homepage',
     };
 
@@ -216,26 +217,26 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <title>
-          Cybernaxe Solutions | AI Agents, Automation & Software Solutions
+          Malka | Full-Stack Developer & AI Builder
         </title>
 
         <meta
           name="description"
-          content="Cybernaxe Solutions builds AI agents, business automation systems, custom web applications and AI-powered digital solutions for modern businesses."
+          content="Malka builds thoughtful websites, web applications, AI tools, and automation systems for people and growing teams."
         />
 
         <meta
           name="keywords"
-          content="AI agents, AI automation, business automation, software development, web applications, AI solutions, Cybernaxe Solutions"
+          content="full-stack developer, web development, AI tools, automation, React, Next.js, portfolio"
         />
 
         <meta
           property="og:title"
-          content="Cybernaxe Solutions | AI Agents & Business Automation"
+          content="Malka | Full-Stack Developer & AI Builder"
         />
         <meta
           property="og:description"
-          content="AI agents, business automation, custom software and modern web applications."
+          content="Websites, web applications, AI tools, automation, and thoughtful digital products."
         />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/Logo/Cybernaxe-Solutions-Logo.jpg" />
@@ -267,28 +268,27 @@ export default function Home() {
         <div className="container">
           <div className="hero-grid">
             <div className="hero-content">
-              <div className="hero-badge">AI • Automation • Software</div>
+              <div className="hero-badge">Developer • Designer • Builder</div>
 
               <h1 className="hero-title">
-                Build Smarter.
+                I build digital
                 <br />
-                <span className="name">Automate More.</span>
+                <span className="name">things that matter.</span>
               </h1>
 
-              <div className="hero-role">AI-Powered Business Solutions</div>
+              <div className="hero-role">Full-Stack Developer & AI Builder</div>
 
               <p className="hero-sub">
-                Cybernaxe Solutions helps businesses automate repetitive
-                work, engage customers with AI agents, and build powerful
-                digital products that drive real business growth.
+                I design and build websites, web applications, and AI-powered
+                tools that make complex ideas feel simple and useful.
               </p>
 
               <div className="hero-actions">
                 <a href="#contact" className="btn btn-primary">
-                  Start a Project
+                  Let&apos;s Work Together
                 </a>
                 <a href="#services" className="btn btn-secondary">
-                  Explore Solutions
+                  View My Work
                 </a>
               </div>
 
@@ -314,7 +314,7 @@ export default function Home() {
           </div>
 
           <div className="scroll-indicator">
-            <div className="scroll-text">Explore Cybernaxe</div>
+            <div className="scroll-text">Explore my work</div>
             <div className="scroll-mouse">
               <div className="mouse-wheel" />
             </div>
@@ -326,31 +326,28 @@ export default function Home() {
 
       <section id="about">
         <div className="container">
-          <div className="section-label">What We Do</div>
+          <div className="section-label">About Me</div>
 
           <div className="about-grid">
             <div className="about-text reveal">
               <h2 className="section-title">
-                Technology that
-                <span> solves real problems.</span>
+                I turn ideas into
+                <span> useful experiences.</span>
               </h2>
 
               <p>
-                Cybernaxe Solutions is a technology solutions company
-                focused on helping businesses use AI, automation and
-                modern software to work smarter.
+                I&apos;m a developer who enjoys turning rough ideas into
+                clear, reliable, and approachable digital products.
               </p>
 
               <p>
-                From AI-powered customer communication to custom
-                business platforms, we design and build digital
-                solutions around real business needs.
+                My work spans full-stack web development, AI experiments,
+                automation, and interfaces that people enjoy using.
               </p>
 
               <p>
-                Our goal is simple: reduce repetitive work, improve
-                customer experiences and create systems that help
-                businesses scale.
+                I care about thoughtful details, honest communication, and
+                building things that solve a real problem.
               </p>
             </div>
 
@@ -398,11 +395,11 @@ export default function Home() {
 
       <section id="services">
         <div className="container">
-          <div className="section-label">Our Services</div>
+          <div className="section-label">What I Do</div>
 
           <h2 className="section-title">
-            Solutions built for
-            <span> modern businesses.</span>
+            A flexible toolkit for
+            <span> meaningful digital work.</span>
           </h2>
 
           <div className="projects-grid">
@@ -612,16 +609,15 @@ export default function Home() {
 
       <section id="solutions">
         <div className="container">
-          <div className="section-label">Who We Help</div>
+          <div className="section-label">My Approach</div>
 
           <h2 className="section-title">
-            Technology for <span>growing businesses.</span>
+            Technology with <span>people in mind.</span>
           </h2>
 
           <p className="solutions-subtitle">
-            We build AI agents, automation workflows, and custom
-            software for teams who want to reduce manual work and
-            scale faster.
+            I work with founders, small teams, and curious people who want
+            to turn an idea into something clear, capable, and real.
           </p>
 
           <div className="solution-grid">
@@ -686,7 +682,7 @@ export default function Home() {
 
       <section id="projects">
         <div className="container">
-          <div className="section-label">Our Work</div>
+          <div className="section-label">Selected Work</div>
 
           <h2 className="section-title">
             Selected <span>Projects</span>
@@ -919,7 +915,7 @@ export default function Home() {
 
       <section id="process">
         <div className="container">
-          <div className="section-label">Our Process</div>
+          <div className="section-label">My Process</div>
 
           <h2 className="section-title">
             From idea to <span>working solution.</span>
@@ -980,28 +976,27 @@ export default function Home() {
             <div className="section-label">Start Building</div>
 
             <h2 className="section-title">
-              Have a business problem?
-              <span> Let&apos;s solve it.</span>
+              Have an idea?
+              <span> Let&apos;s make it real.</span>
             </h2>
 
             <p>
-              Whether you need an AI agent, business automation
-              workflow, custom application or AI-powered feature,
-              let&apos;s discuss what you want to build.
+              Whether you need a website, custom application, AI-powered
+              feature, or a thoughtful technical partner, let&apos;s talk.
             </p>
 
             <div className="hero-actions">
               <a href="#contact" className="btn btn-primary">
-                Talk to Cybernaxe
+                Start a Conversation
               </a>
 
               <a
-                href="https://www.linkedin.com/company/cybernaxe-solutions"
+                href="#projects"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-secondary"
               >
-                Follow Us on LinkedIn
+                View My Work
               </a>
             </div>
           </div>
@@ -1021,9 +1016,8 @@ export default function Home() {
           <div className="contact-grid">
             <div className="contact-info reveal">
               <p>
-                Have a project, automation idea or business problem
-                you&apos;d like to solve? Send us a message and let&apos;s
-                explore the right solution.
+                Have an idea, a project, or a problem worth solving? Send me
+                a message and let&apos;s explore what we can make together.
               </p>
 
               <div className="contact-items">
@@ -1047,7 +1041,7 @@ export default function Home() {
                   <div>
                     <div className="contact-item-label">LinkedIn</div>
                     <div className="contact-item-value">
-                      Cybernaxe Solutions
+                      Let&apos;s connect
                     </div>
                   </div>
                 </a>
@@ -1176,7 +1170,7 @@ export default function Home() {
                 alt="AI Assistant"
                 className="chatbot-bot-icon"
               />
-              <h3 className="chatbot-title">Cybernaxe AI Assistant</h3>
+              <h3 className="chatbot-title">Malka&apos;s Assistant</h3>
             </div>
             <button
               className="chatbot-close"
@@ -1230,7 +1224,7 @@ export default function Home() {
             <input
               type="text"
               className="chatbot-input"
-              placeholder="Ask about Cybernaxe..."
+              placeholder="Ask about my work..."
               value={chatInput}
               onChange={(e) => setChatInput(e.target.value)}
               onKeyDown={handleChatKeyDown}

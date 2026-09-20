@@ -4942,3 +4942,10 @@ section {
   background: #FEF2F2;
   color: #EF4444;
 }
+
+.nav-name {
+  color: var(--text);
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 0;
+}
