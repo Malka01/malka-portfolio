@@ -10,10 +10,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "next lint",
+    "seed:mc360": "node scripts/seed-medicare360.mjs"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^18.0.6",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^1.52.0",
+    "mongoose": "^9.11.1",
     "next": "16.2.6",
     "react": "19.2.4",
     "react-dom": "19.2.4",

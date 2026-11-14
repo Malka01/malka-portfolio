@@ -29,6 +29,7 @@ import BusinessAutomationIllustration from '@/components/BusinessAutomationIllus
 import WebAppsIllustration from '@/components/WebAppsIllustration';
 import BusinessWebsitesIllustration from '@/components/BusinessWebsitesIllustration';
 import UIUXDesignIllustration from '@/components/UIUXDesignIllustration';
+import { siteConfig } from '@/lib/site';
 // import CommentWidget from '@/components/CommentWidget';
 
 
@@ -217,29 +218,79 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <title>
-          Malka | Full-Stack Developer & AI Builder
+          Malka | WordPress & Custom Web Developer
         </title>
 
         <meta
           name="description"
-          content="Malka builds thoughtful websites, web applications, AI tools, and automation systems for people and growing teams."
+          content={siteConfig.description}
         />
 
         <meta
           name="keywords"
-          content="full-stack developer, web development, AI tools, automation, React, Next.js, portfolio"
+          content={siteConfig.keywords.join(', ')}
         />
 
         <meta
           property="og:title"
-          content="Malka | Full-Stack Developer & AI Builder"
+          content="Malka | WordPress & Custom Web Developer"
         />
         <meta
           property="og:description"
-          content="Websites, web applications, AI tools, automation, and thoughtful digital products."
+          content={siteConfig.description}
         />
         <meta property="og:type" content="website" />
+        <meta property="og:url" content={siteConfig.url} />
+        <meta property="og:site_name" content="Malka" />
         <meta property="og:image" content="/Logo/Cybernaxe-Solutions-Logo.jpg" />
+        <meta
+          name="twitter:card"
+          content="summary_large_image"
+        />
+        <meta
+          name="twitter:title"
+          content="Malka | WordPress & Custom Web Developer"
+        />
+        <meta
+          name="twitter:description"
+          content={siteConfig.description}
+        />
+        <meta
+          name="twitter:image"
+          content="/Logo/Cybernaxe-Solutions-Logo.jpg"
+        />
+        <link rel="canonical" href={siteConfig.url} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Malka",
+              url: siteConfig.url,
+              jobTitle: "WordPress and Custom Web Developer",
+              description: siteConfig.description,
+              email: `mailto:${siteConfig.email}`,
+              sameAs: siteConfig.sameAs,
+              knowsAbout: [
+                "Full-stack web development",
+                "WordPress development",
+                "Custom web development",
+                "Custom website development",
+                "SEO-friendly website development",
+                "Artificial intelligence",
+                "Business automation",
+                "React",
+                "Next.js",
+              ],
+              worksFor: {
+                "@type": "Organization",
+                name: "Cybernaxe Solutions",
+                url: siteConfig.url,
+              },
+            }),
+          }}
+        />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
