@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: "Malka | WordPress & Custom Web Developer",
+    default: "Malka Sandaruwan| WordPress & Custom Web Developer Sri Lanka",
     template: "%s | Malka",
   },
   description: siteConfig.description,
@@ -26,8 +26,8 @@ export const metadata = {
   openGraph: {
     type: "website",
     url: "/",
-    siteName: "Malka",
-    title: "Malka | WordPress & Custom Web Developer",
+    siteName: "Malka Sandaruwan",
+    title: "Malka Sandaruwan | WordPress & Custom Web Developer Sri Lanka",
     description: siteConfig.description,
     images: [
       {
@@ -40,7 +40,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Malka | WordPress & Custom Web Developer",
+    title: "Malka Sandaruwan | WordPress & Custom Web Developer Sri Lanka",
     description: siteConfig.description,
     images: ["/Logo/Cybernaxe-Solutions-Logo.jpg"],
   },

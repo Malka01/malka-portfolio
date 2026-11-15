@@ -233,7 +233,7 @@ export default function Home() {
 
         <meta
           property="og:title"
-          content="Malka | WordPress & Custom Web Developer"
+          content="Malka Sandaruwan | WordPress & Custom Web Developer Sri Lanka"
         />
         <meta
           property="og:description"
@@ -249,7 +249,7 @@ export default function Home() {
         />
         <meta
           name="twitter:title"
-          content="Malka | WordPress & Custom Web Developer"
+          content="Malka Sandaruwan | WordPress & Custom Web Developer Sri Lanka"
         />
         <meta
           name="twitter:description"
@@ -266,17 +266,17 @@ export default function Home() {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              name: "Malka",
+              name: "Malka Sandaruwan",
               url: siteConfig.url,
-              jobTitle: "WordPress and Custom Web Developer",
+              jobTitle: "WordPress and Custom Web Developer Sri Lanka",
               description: siteConfig.description,
               email: `mailto:${siteConfig.email}`,
               sameAs: siteConfig.sameAs,
               knowsAbout: [
-                "Full-stack web development",
-                "WordPress development",
-                "Custom web development",
-                "Custom website development",
+                "Full-stack web development Sri Lanka",
+                "WordPress development Sri Lanka",
+                "Custom web development Sri Lanka",
+                "Custom website development Sri Lanka",
                 "SEO-friendly website development",
                 "Artificial intelligence",
                 "Business automation",

@@ -1,15 +1,17 @@
 export const siteConfig = {
-  name: "Malka",
+  name: "Malka Sandaruwan",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://cybernaxe-solutions.vercel.app",
   description:
-    "Malka is a WordPress and Custom Full Stack developer building SEO-friendly websites, web applications, AI tools, and automation systems for businesses and growing teams.",
+    "Malka Sandaruwan is a WordPress and Custom Full Stack developer building SEO-friendly websites, web applications, AI tools, and automation systems for businesses and growing teams.",
   keywords: [
+    "Malka Sandaruwan",
     "WordPress developer",
     "custom web developer",
     "custom web development",
-    "custom website development",
-    "business website development",
-    "full-stack web developer",
+    "WordPress developer Sri Lanka",
+    "custom website development Sri Lanka",
+    "business website development Sri Lanka",
+    "full-stack web developer Sri Lanka",
     "SEO-friendly website development",
     "React developer",
     "Next.js developer",
