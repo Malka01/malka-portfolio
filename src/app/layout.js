@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: "Malka Sandaruwan| WordPress & Custom Web Developer Sri Lanka",
+    default: "Malka Sandaruwan | WordPress & Custom Full Stack Web Developer Sri Lanka",
     template: "%s | Malka",
   },
   description: siteConfig.description,

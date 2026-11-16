@@ -233,7 +233,7 @@ export default function Home() {
 
         <meta
           property="og:title"
-          content="Malka Sandaruwan | WordPress & Custom Web Developer Sri Lanka"
+          content="Malka Sandaruwan | WordPress & Custom Full Stack Web Developer Sri Lanka"
         />
         <meta
           property="og:description"
