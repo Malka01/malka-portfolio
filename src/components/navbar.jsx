@@ -30,7 +30,7 @@ export default function Navbar() {
               alt="Cybernaxe Solutions"
               className="nav-profile-img"
             />
-            <span className="nav-name">Malka</span>
+            {/* <span className="nav-name">Malka</span> */}
           </a>
 
           {/* Desktop Menu */}

@@ -59,14 +59,14 @@ export default function Footer() {
               >
                 Linkedin
               </a>
-              {/* <a
-                href="https://www.tiktok.com/@cybernaxesolution"
+              <a
+                href="https://www.tiktok.com/@cybernaxesolutions"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="TikTok"
               >
                 TikTok
-              </a> */}
+              </a>
               {/* <a
                 href="YOUR_INSTAGRAM_URL"
                 target="_blank"
@@ -82,7 +82,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="footer-bottom">
           <div>
-            © {new Date().getFullYear()} Malka. All rights reserved.
+            © {new Date().getFullYear()} Malka Sandaruwan. All rights reserved.
           </div>
 
           <div className="footer-links">
